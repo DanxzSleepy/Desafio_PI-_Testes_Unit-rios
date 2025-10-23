@@ -1,11 +1,10 @@
 # Documentação Final - Desafio PI: Testes Unitários, Módulos e Qualidade
 
 ## 👥 Equipe de Desenvolvimento
+- Danilo Ícaro
+- José Miguel
 - Lucas Eduardo
 - Nikolas Kaio
-- Rihanna Monteiro
-- José Miguel
-- Danilo Ícaro
 
 ## 📋 Conteúdo
 

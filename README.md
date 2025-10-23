@@ -1,11 +1,10 @@
 # Desafio PI: Testes Unitários, Módulos e Qualidade
 
 ## 👥 Equipe de Desenvolvimento
+- Danilo Ícaro
+- José Miguel
 - Lucas Eduardo
 - Nikolas Kaio
-- Rihanna Monteiro
-- José Miguel
-- Danilo Ícaro
 
 ## 🎯 Objetivo
 Aplicar os conceitos de Teste Unitário, Particionamento de Equivalência (PE) e Análise de Valor Limite (AVL) em uma função crítica do Projeto Integrador (PI).
