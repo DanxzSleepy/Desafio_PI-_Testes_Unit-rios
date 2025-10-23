@@ -1,43 +1,26 @@
-# Desafio PI: Testes Unitários, Módulos e Qualidade
+# Documentação Final - Desafio PI: Testes Unitários, Módulos e Qualidade
 
-## Estrutura do Projeto
+## 👥 Equipe de Desenvolvimento
+- Lucas Eduardo
+- Nikolas Kaio
+- Rihanna Monteiro
+- José Miguel
+- Danilo Ícaro
 
-```
-Desafio/
-├── modulo_pi.js          # Função de validação de CPF
-├── casos_teste.js        # Casos de teste unitário
-├── runner_unitario.html  # Interface web para testes
-└── documentacao.md       # Documentação completa
-```
+## 📋 Conteúdo
 
-## Como Executar os Testes
+Esta pasta contém a documentação final completa do Desafio PI de Testes Unitários, incluindo:
 
-### Opção 1: Via Node.js (recomendado)
+1. **[documentacao.md](file:///c:/Users/Danilo54279466/Documents/GitHub/Repositorios_Testes/Desafio/BLOC4_ENTREGA/documentacao.md)** - Documentação completa com todas as etapas do processo
+2. **Este arquivo** - Informações gerais sobre a entrega
 
-```bash
-cd Desafio
-node casos_teste.js
-```
+## 🎯 Objetivo Alcançado
 
-### Opção 2: Via Navegador
+Todos os membros da equipe colaboraram para aplicar os conceitos de Teste Unitário, Particionamento de Equivalência (PE) e Análise de Valor Limite (AVL) em uma função crítica do Projeto Integrador.
 
-1. Abra o arquivo `runner_unitario.html` em um navegador
-2. Pressione F12 para abrir o console
-3. Veja os resultados dos testes no console
+## 🧪 Resultados
 
-## Função Testada
-
-A função `validarCPF(cpf)` valida números de CPF brasileiros, verificando:
-- Formato correto (11 dígitos)
-- Dígitos verificadores válidos
-- Não permite todos os dígitos iguais (ex: 111.111.111-11)
-- Aceita formatos com e sem pontuação
-
-## Resultados
-
-Todos os 10 casos de teste passaram com sucesso:
-- 10 Passaram
-- 0 Falharam
-- 0 Erros
-
-A função está funcionando corretamente conforme as especificações.
+- ✅ 10 testes unitários criados e executados
+- ✅ 100% de sucesso nos testes
+- ✅ Função [validarCPF](file:///c:/Users/Danilo54279466/Documents/GitHub/Repositorios_Testes/Desafio/BLOC1_ACAO/modulo_pi.js#L11-L60) validando corretamente CPFs brasileiros
+- ✅ Documentação completa em português
