@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner de Testes Unitários - CPF</title>
+</head>
+<body>
+    <h1>Runner de Testes Unitários - Validação de CPF</h1>
+    <p>Abra o console do navegador (F12) para ver os resultados dos testes.</p>
+    
+    <!-- Inclui o módulo com a função a ser testada -->
+    <script src="../BLOC1_ACAO/modulo_pi.js"></script>
+    
+    <!-- Script para executar os testes -->
+    <script>
+        // Testes rápidos para verificar se a função funciona
+        console.log("=== TESTES RÁPIDOS ===");
+        console.log("CPF válido (123.456.789-09):", validarCPF("123.456.789-09")); // RESULTADO ESPERADO: true
+        console.log("CPF válido (12345678909):", validarCPF("12345678909"));       // RESULTADO ESPERADO: true
+        console.log("CPF inválido (111.111.111-11):", validarCPF("111.111.111-11")); // RESULTADO ESPERADO: false
+        console.log("CPF inválido (12345678901):", validarCPF("12345678901"));     // RESULTADO ESPERADO: false
+        console.log("CPF inválido (123.456.789-0):", validarCPF("123.456.789-0")); // RESULTADO ESPERADO: false
+        console.log("CPF inválido (abcdef):", validarCPF("abcdef"));               // RESULTADO ESPERADO: false
+    </script>
+</body>
+</html>
